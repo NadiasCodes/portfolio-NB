@@ -103,8 +103,7 @@ textarea:not([rows]) {
 
 /* Body */
 body {
-  height: 100%;
-  width: 100%;
+  
   line-height: 1.5;
   font-family: var(--poppins-font);
   margin: 0;
