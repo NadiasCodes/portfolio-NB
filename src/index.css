@@ -19,6 +19,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+   margin: 0;
+  padding: 0;
 }
 
 /* Prevent font size inflation */
@@ -31,6 +33,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ 
 }
 
 /* Remove default margin in favour of better control in authored CSS */
@@ -78,12 +81,12 @@ h4 {
 }
 
 /* Make images easier to work with */
-img,
+/* img,
 picture {
   max-width: 100%;
   height: auto;
   display: block;
-}
+} */
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -110,4 +113,8 @@ body {
   font-family: var(--poppins-font);
   margin: 0;
   padding: 0;
+    
 }
+/* background-image:url("./assets/hero-images/hero-bg.png");
+    background-attachment: fixed;
+    background-size: cover; */
