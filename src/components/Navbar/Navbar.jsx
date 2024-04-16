@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import menuIcon from "../../assets/icons/menu-icon.png";
 
-
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   const toggleMenu = () => {
@@ -16,8 +15,9 @@ const Navbar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
-
-        <button className="btn-hero">Contact</button>
+        <li>
+          Contact
+        </li>
       </ul>
       <img src={menuIcon} alt="menu icon" className="menu-icon" onClick={toggleMenu} />
     </nav>

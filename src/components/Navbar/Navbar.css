@@ -18,6 +18,16 @@ nav ul li {
   font-size: 17px;
 }
 
+li{
+  transition: 1s;
+}
+
+li:hover{
+  color:rgb(20, 25, 44);
+transform: translateY(-6px);
+cursor: pointer;
+}
+
 .nav-h1 {
   font-size: 25px;
   font-family: var(--Great-Vibes-font);
@@ -27,23 +37,13 @@ nav ul li {
   display: none;
 }
 
-.btn-hero {
-  text-decoration: none;
-  color: rgb(27, 27, 27);
-  padding: 10px 20px;
-  border: none;
-  border-radius: 100px;
 
-  background-color: black;
-  color: #d5d7e1;
-  transition: 0.9s;
-}
 
-.btn-hero:hover {
-  filter: drop-shadow(0 0 0.9rem rgb(100, 108, 121));
-}
 
 @media (max-width: 700px) {
+  nav {
+    padding: 15px 0;
+  }
   nav ul {
     position: fixed;
     top: 0;
@@ -52,7 +52,7 @@ nav ul li {
     background-color: rgb(117, 124, 151);
     z-index: -1;
     width: 200px;
-
+    padding-top: 50px;
     transition: 0.5s;
   }
   nav ul li {

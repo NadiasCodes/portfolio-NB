@@ -46,3 +46,37 @@
 .social-icon:hover {
   transform: translateY(-8px);
 }
+
+.hero p {
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5;
+  width: 96%;
+}
+
+
+.button-container{
+  display:inline-block;
+  margin: 12px;
+}
+.main-button {
+  margin-top: 18px;
+  letter-spacing: 0.8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 13px;
+  gap: 10px;
+  background: transparent;
+  border:none;
+ font-size: 19px;
+ 
+ font-weight: 500;
+}
+
+.arrow{
+  transition: 1s;
+}
+.arrow:hover{
+ transform: translateX(8px);
+}
