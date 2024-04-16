@@ -11,6 +11,7 @@ nav {
   z-index: 10;
   padding: 10px 20px;
 }
+
 nav ul li {
   display: inline-block;
   margin: 5px 20px;
@@ -26,10 +27,18 @@ nav ul li {
   display: none;
 }
 
+.social-icon-container {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 17px;
+}
+
 .social-icon {
   width: 30px;
   height: 30px;
-  transition: 1s;
+  border-radius: 50%;
+  margin-right: 6px;
 }
 
 .social-icon:hover {
@@ -37,33 +46,20 @@ nav ul li {
 }
 
 .btn-hero {
- text-decoration: none;
- color: rgb(27, 27, 27);
- padding: 10px 20px;
- border: none;
- border-radius: 1000px;
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 100px;
 
-background-color: black;
-color:#d5d7e1;
-transition: 0.9s;
-
+  background-color: black;
+  color: #d5d7e1;
+  transition: 0.9s;
 }
 
 .btn-hero:hover {
-filter: drop-shadow(0 0 0.90rem rgb(100, 108, 121));
-
+  filter: drop-shadow(0 0 0.9rem rgb(100, 108, 121));
 }
-
-
-
-
-@media (max-width: 1200px) {
-  nav ul li {
-    margin: 10px 15px;
-  }
-  
-
-
 
 @media (max-width: 700px) {
   nav ul {
@@ -74,7 +70,7 @@ filter: drop-shadow(0 0 0.90rem rgb(100, 108, 121));
     background-color: rgb(117, 124, 151);
     z-index: -1;
     width: 200px;
-    padding-top: 70px;
+
     transition: 0.5s;
   }
   nav ul li {
@@ -91,5 +87,3 @@ filter: drop-shadow(0 0 0.90rem rgb(100, 108, 121));
     right: -200px;
   }
 }
-
-

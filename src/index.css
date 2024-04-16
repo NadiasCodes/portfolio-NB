@@ -6,35 +6,24 @@
   --Great-Vibes-font: "Great Vibes", cursive;
   --Montserrat-font: "Montserrat", sans-serif;
   --Dancing-font: "Dancing Script", cursive;
-
-  /* colors */
-  --main-color: ;
-  --dark-brown: ;
-  --gold: ;
-  --beige: ;
 }
+ 
 
 /* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-   margin: 0;
+  margin: 0;
   padding: 0;
 }
 
 /* Prevent font size inflation */
 html {
-  -moz-text-size-adjust: none;
-  -webkit-text-size-adjust: none;
-  text-size-adjust: none;
   scroll-behavior: smooth;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- 
-}
+  scroll-padding-top:75px;
+ }
+
 
 /* Remove default margin in favour of better control in authored CSS */
 body,
@@ -78,6 +67,7 @@ h2,
 h3,
 h4 {
   text-wrap: balance;
+  margin:0;
 }
 
 /*Make images easier to work with */
@@ -108,15 +98,10 @@ textarea:not([rows]) {
 
 /* Body */
 body {
-  
-  line-height: 1.5;
   font-family: var(--poppins-font);
-  margin: 0;
-  padding: 0;
-   width: 100%;
-  height: 100%;
-    
-}
+  overflow-x: hidden;
+  position: relative;
+ }
 
 html,
 body {

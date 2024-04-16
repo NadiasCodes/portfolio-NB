@@ -18,24 +18,8 @@ const Navbar = () => {
         <li>Home</li>
         <li>About</li>
         <li>Projects</li>
-        <a a href="https://github.com/NadiasCodes" target="blank">
-          <li>
-            <img src={GitHubIcon} alt="" className="social-icon" />
-          </li>
-        </a>
-        <a a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
-          <li>
-            <img src={LinkedinIcon} alt="" className="social-icon" />
-          </li>
-        </a>
-        <a a href="https://dev.to/nadiafedev" target="blank">
-          <li>
-            <img src={DevIcon} alt="" className="social-icon" />
-          </li>
-        </a>
-        <li>
-          <button className="btn-hero">Contact</button>
-        </li>
+
+        <button className="btn-hero">Contact</button>
       </ul>
       <img src={menuIcon} alt="menu icon" className="menu-icon" onClick={toggleMenu} />
     </nav>
