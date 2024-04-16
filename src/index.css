@@ -80,13 +80,13 @@ h4 {
   text-wrap: balance;
 }
 
-/* Make images easier to work with */
-/* img,
+/*Make images easier to work with */
+ img,
 picture {
   max-width: 100%;
   height: auto;
   display: block;
-} */
+} 
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -113,8 +113,12 @@ body {
   font-family: var(--poppins-font);
   margin: 0;
   padding: 0;
+   width: 100%;
+  height: 100%;
     
 }
-/* background-image:url("./assets/hero-images/hero-bg.png");
-    background-attachment: fixed;
-    background-size: cover; */
+
+html,
+body {
+  height: 100%;
+}
