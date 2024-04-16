@@ -12,7 +12,7 @@ const Hero = () => {
   AOS.init();
   return (
     <section className="hero" id="home">
-      <Container>
+      <Container className="container-box">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <span className="tagline" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
@@ -48,7 +48,7 @@ const Hero = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={coder} alt="hero image" className="coder" />
+            <img src={coder} alt="hero image" className="coder " />
           </Col>
         </Row>
       </Container>
