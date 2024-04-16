@@ -9,7 +9,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   z-index: 10;
-  padding: 10px 20px;
+  padding: 18px 20px;
 }
 
 nav ul li {
@@ -25,24 +25,6 @@ nav ul li {
 
 .menu-icon {
   display: none;
-}
-
-.social-icon-container {
-  display: flex;
-  align-items: center;
-  margin: 5px;
-  font-size: 17px;
-}
-
-.social-icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  margin-right: 6px;
-}
-
-.social-icon:hover {
-  transform: translateY(-8px);
 }
 
 .btn-hero {

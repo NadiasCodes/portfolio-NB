@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import { BsArrowRightCircle } from "react-icons/bs";
 import coder from "../../assets/hero-images/nadia2.png"
+import DevIcon from "../../assets/icons/dev.png";
+import GitHubIcon from "../../assets/icons/github.png";
+import LinkedinIcon from "../../assets/icons/linkedin.png";
 import "./Hero.css";
 
 
@@ -23,6 +26,20 @@ const Hero = () => {
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, obcaecati nemo soluta quidem error possimus cum? Praesentium atque, asperiores harum id tempora sunt ullam quasi cupiditate nostrum assumenda maiores distinctio.</p>
 
+            <div className="social-icons-container">
+              <a href="#">
+                {" "}
+                <img src={GitHubIcon} alt="" className="social-icon" />
+              </a>
+              <a href="#">
+                {" "}
+                <img src={LinkedinIcon} alt="" className="social-icon" />
+              </a>
+              <a href="#">
+                {" "}
+                <img src={DevIcon} alt="" className="social-icon" />
+              </a>
+            </div>
             <button>
               Contact Me <BsArrowRightCircle size={25} />
             </button>
