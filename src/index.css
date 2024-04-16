@@ -54,6 +54,8 @@ ul {
 }
 a {
   text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
 }
 
 /* Set shorter line heights on headings and interactive elements */

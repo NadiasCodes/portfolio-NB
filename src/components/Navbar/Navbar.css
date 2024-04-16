@@ -1,5 +1,30 @@
-.navbar-color {
-  background-color: rgb(168, 173, 194);
-  margin: 0;
- 
+body {
+  background: rgb(120, 110, 101);
+  }
+
+nav{
+  width:100%;
+  background: rgb(168, 173, 194);
+  color: #ffff;
+  position:fixed;
+  top:0;
+  left:0;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  padding: 6px 20px;
 }
+nav ul li{
+  display: inline-block;
+  margin: 5px 20px;
+  font-size: 17px;
+}
+
+h1{
+  font-size: 25px;
+  font-family: var(  --Great-Vibes-font)
+}
+
+
+
