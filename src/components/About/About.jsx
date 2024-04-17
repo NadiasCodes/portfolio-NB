@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Typewriter from "typewriter-effect";
+
 import CertificateSlider from "../Carousel/CertificateSlider";
 
 import "./About.css";
@@ -17,20 +17,7 @@ const About = () => {
 
           <Col xs={12} md={6} xl={5}>
             <h1 className="AboutMe" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString("About Me")
-                    .callFunction(() => {
-                      console.log("String typed out!");
-                    })
-                    .pauseFor(2500)
-                    .callFunction(() => {
-                      console.log("All strings were deleted");
-                    })
-                    .start();
-                }}
-              />
+              About Me:
             </h1>
             <p data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">
               After completing my front-end developer Bootcamp and earning my certification, I discovered a deep affinity for React. Since then, I have devoted myself to refining my skills and broadening my knowledge of React, while exploring complementary frameworks such as Tailwind CSS, Next.js, and Framer Motion to expand my skill set and build more versatile, high-performance applications.

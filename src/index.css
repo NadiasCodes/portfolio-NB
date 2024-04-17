@@ -177,6 +177,9 @@ body {
     text-align: center;
     font-size: 16px;
   }
+  .icon-skill{
+    animation:none;
+  }
 }
   @media (max-width: 475px) {
     .container-box {
