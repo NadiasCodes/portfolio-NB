@@ -15,7 +15,7 @@
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
   display: inline-block;
 }
 
@@ -24,7 +24,7 @@
   font-weight: 700;
   letter-spacing: 0.8;
   line-height: 1;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   display: block;
 }
 
@@ -33,7 +33,7 @@
   align-items: center;
   margin: 5px;
   font-size: 17px;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .social-icon {
@@ -57,7 +57,7 @@
 }
 
 .btn-hero {
-  margin-top: 12px;
+  margin-top: 18px;
   letter-spacing: 0.8px;
   display: inline-flex;
   align-items: center;
@@ -68,8 +68,7 @@
   border: none;
   font-size: 20px;
   border: 2px solid #757c97;
-
-  font-weight: 500;
+font-weight: 500;
 }
 
 .arrow {

@@ -31,15 +31,15 @@ const Hero = () => {
             </p>
 
             <div className="social-icons-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
-              <a href="#">
+              <a href="https://github.com/NadiasCodes" target="blank">
                 <img src={GitHubIcon} alt="" className="social-icon" />
               </a>
 
-              <a href="#">
+              <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
                 <img src={LinkedinIcon} alt="" className="social-icon" />
               </a>
 
-              <a href="#">
+              <a href="https://dev.to/nadiafedev" target="blank">
                 <img src={DevIcon} alt="" className="social-icon" />
               </a>
             </div>
