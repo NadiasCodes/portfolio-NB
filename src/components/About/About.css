@@ -1,0 +1,35 @@
+.MyStory {
+  margin-top: 0;
+  padding: 0;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/499/original/Dark_Simple_Minimalist_Modern_Photo_Collage_Fashion_Facebook_Cover_%282%29.png?1713347407");
+  background-position: top-center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container-box {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.AboutMe{
+   margin-top: 20px;
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+
+}
+
+.MyStory p{
+font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5;
+  width: 96%;
+}
