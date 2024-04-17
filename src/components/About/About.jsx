@@ -11,15 +11,15 @@ const About = () => {
     <section className="MyStory">
       <Container className="container-box">
         <Row className="align-items-center">
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={6} xl={5}>
             <CertificateSlider />
           </Col>
 
-          <Col xs={12} md={6} xl={5}>
-            <h1 className="default-header " data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
+          <Col xs={12} md={6} xl={6}>
+            <h1 className="default-header " data-aos="flip-up">
               About Me:
             </h1>
-            <p data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <p data-aos="fade-right" >
               After completing my front-end developer Bootcamp and earning my certification, I discovered a deep affinity for React. Since then, I have devoted myself to refining my skills and broadening my knowledge of React, while exploring complementary frameworks such as Tailwind CSS, Next.js, and Framer Motion to expand my skill set and build more versatile, high-performance applications.
               <br />
               <br />

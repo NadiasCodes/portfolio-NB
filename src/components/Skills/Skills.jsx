@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <section className="skills-box">
       <div class="container-box container text-center">
-        <h1 class="default-header  text-center" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
+        <h1 class="default-header  text-center" data-aos="flip-up" >
           My Skills:
         </h1>
         <div className="skills-icons-box" data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">

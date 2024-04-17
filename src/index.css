@@ -135,6 +135,9 @@ body {
     width: 600px;
     aspect-ratio: auto;
   }
+
+
+  
 }
 
 @media (max-width: 1024px) {
@@ -146,6 +149,21 @@ body {
     width: 500px;
     aspect-ratio: auto;
   }
+   .carousel {
+    display: none;
+  }
+    .default-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .MyStory p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+  }
+  
 }
 
 @media (max-width: 768px) {
@@ -155,77 +173,139 @@ body {
   .coder {
     display: none;
   }
+  .hero h1 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.8;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  .hero .tagline {
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .MyStory {
+    margin-top: 0;
+    padding: 50px;
+  }
+
+  .social-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero p {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .btn-hero {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    gap: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #757c97;
+    font-weight: 500;
+  }
+  .default-header {
+    font-size: 40px;
+    text-align: center;
+  }
+  .MyStory p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .icon-skill {
+    animation: none;
+  }
+  .carousel {
+    display: none;
+  }
 }
 
 @media (max-width: 640px) {
   .container-box {
     max-width: 475px;
   }
+
   .hero h1 {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 0.8;
     line-height: 1;
     margin-bottom: 20px;
-   text-align: center;
+    text-align: center;
   }
   .hero .tagline {
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  padding: 8px 10px;
-  font-size: 18px;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .social-icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
 
-.social-icons-container {
-  display: flex;
-  align-items: center;
- justify-content: center;
- margin-bottom: 40px;
-}
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
 
-.social-icon {
-  width: 40px;
-  height: 40px;
-}
+  .hero p {
+    font-size: 16px;
+    text-align: center;
+  }
 
-
-.hero p {
-  font-size: 16px;
- text-align: center;
-}
-
-.btn-hero {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
-  gap: 10px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-border: 2px solid #757c97;
-font-weight: 500;
-}
-  .default-header{
+  .btn-hero {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    gap: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    border: 2px solid #757c97;
+    font-weight: 500;
+  }
+  .default-header {
     font-size: 40px;
     text-align: center;
   }
-  .MyStory p{
+  .MyStory p {
     text-align: center;
     font-size: 16px;
   }
-  .icon-skill{
-    animation:none;
+  .icon-skill {
+    animation: none;
   }
 }
-  @media (max-width: 475px) {
-    .container-box {
-      width: 100%;
-    }
-   
+@media (max-width: 475px) {
+  .container-box {
+    width: 100%;
   }
-
+}

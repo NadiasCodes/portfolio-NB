@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <section className="projects-box">
       <div class="container-box container text-center">
-        <h1 class="default-header text-center" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
+        <h1 class="default-header text-center" data-aos="flip-up" >
           My Projects:
         </h1>
         <p>
