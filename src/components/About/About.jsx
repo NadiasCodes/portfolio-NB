@@ -16,7 +16,7 @@ const About = () => {
           </Col>
 
           <Col xs={12} md={6} xl={5}>
-            <h1 className="AboutMe" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
+            <h1 className="default-header " data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
               About Me:
             </h1>
             <p data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">
