@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Typewriter from "typewriter-effect";
 import { BsArrowRightCircle } from "react-icons/bs";
-import coder from "../../assets/hero-images/nadia2.png";
+import coder from "../../assets/hero-images/hero-image.png";
 import DevIcon from "../../assets/icons/dev.png";
 import GitHubIcon from "../../assets/icons/github.png";
 import LinkedinIcon from "../../assets/icons/linkedin.png";

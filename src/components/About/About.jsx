@@ -9,14 +9,14 @@ const About = () => {
   AOS.init();
   return (
     <section className="MyStory">
-      <Container className="">
+      <Container className="container-box">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
             <CertificateSlider />
           </Col>
 
           <Col xs={12} md={6} xl={5}>
-            <h1 className="AboutMe" data-aos="fade-down-right" data-aos-duration="1500" data-aos-offset="400">
+            <h1 className="AboutMe" data-aos="flip-up" data-aos-duration="2000" data-aos-offset="400">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
