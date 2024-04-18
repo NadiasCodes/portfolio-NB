@@ -377,6 +377,16 @@ body {
   .icon-skill {
     animation: none;
   }
+  .tab2-text{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.hourglass-icon {
+ 
+  width: 50px;
+  margin: 0 auto;
+}
 }
 @media (max-width: 475px) {
   .container-box {

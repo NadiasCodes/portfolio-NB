@@ -11,6 +11,8 @@ import tabColor from "../../assets/tab-color/tab-color1.png";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
+import { Hourglass } from "react-loader-spinner";
+import Typewriter from "typewriter-effect";
 
 const Projects = () => {
   AOS.init();
@@ -78,7 +80,7 @@ const Projects = () => {
                     My portfolio showcases a diverse range of web development projects built using technologies such as HTML, CSS, JavaScript, React, and Bootstrap. Each project demonstrates a strong understanding of UI/UX principles, responsive design, and seamless user experiences. As I continue to expand my skill set, the portfolio will evolve to include advanced projects leveraging cutting-edge frameworks like Tailwind CSS, Framer Motion, and Next.js, highlighting my commitment to staying up-to-date with the latest industry trends and best practices.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>
                         <Nav.Link eventKey="first">Tab One</Nav.Link>
                       </Nav.Item>
@@ -94,7 +96,22 @@ const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="second">Work In Progress... loader spinner import later</Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <Hourglass visible={true} height="100" width="100" ariaLabel="hourglass-loading" wrapperStyle={{}} wrapperClass="hourglass-icon" colors={["#0A0908", "#928862"]} />
+                        <h5 className="tab2-text">
+                          <Typewriter
+                            onInit={(typewriter) => {
+                              typewriter
+                                .typeString("Work In Progress...")
+                                .callFunction(() => {})
+                                .pauseFor(3000)
+                                .changeDelay(600)
+                                .callFunction(() => { })
+                                .start();
+                            }}
+                          />
+                        </h5>
+                      </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
                 </div>
@@ -103,7 +120,6 @@ const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={tabColor}></img>
     </section>
   );
 };
