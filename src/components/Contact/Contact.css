@@ -7,3 +7,20 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-contact{
+    padding: 18px 40px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    outline:none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
