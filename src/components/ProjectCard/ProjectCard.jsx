@@ -8,7 +8,7 @@ export const ProjectCard = ({ title, description, imgUrl, repo, preview }) => {
   AOS.init();
   return (
     <Col size={12} sm={6} md={4}>
-      <div className="proj-imgBox" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+      <div className="proj-imgBox" data-aos="fade-right" data-aos-duration="2000">
         <img src={imgUrl} className="img-fluid" />
         <div className="proj-txt">
           <h4>{title}</h4>

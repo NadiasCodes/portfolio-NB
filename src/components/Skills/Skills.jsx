@@ -13,16 +13,15 @@ import reactjs from "../../assets/tech/reactjs.png";
 import responsive from "../../assets/tech/responsive.png";
 import tailwind from "../../assets/tech/tailwind.png";
 
-
 const Skills = () => {
   AOS.init();
   return (
     <section className="skills-box">
       <div className="container-box container text-center">
-        <h1 className="default-header  text-center" data-aos="flip-up">
+        <h1 className="default-header  text-center" data-aos="fade-down" ata-aos-duration="1500">
           My Skills:
         </h1>
-        <div className="skills-icons-box" data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div className="skills-icons-box" data-aos="fade-right" data-aos-duration="2400" data-aos-easing="ease-in-sine">
           <div className="row mt-5">
             <div className="col-lg col-md-2 mb-5">
               <img src={html} className="img-fluid icon-skill icon-hover" />
