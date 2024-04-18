@@ -4,7 +4,7 @@ import { MdKeyboardDoubleArrowUp } from "react-icons/md";
 const ScrollUp = () => {
   return (
     <div>
-      <a href="#home" class="scrollUp" id="scroll-up">
+      <a href="#hero" class="scrollUp" id="scroll-up">
         <MdKeyboardDoubleArrowUp />
       </a>
     </div>
