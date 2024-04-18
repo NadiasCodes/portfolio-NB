@@ -16,7 +16,7 @@ import tailwind from "../../assets/tech/tailwind.png";
 const Skills = () => {
   AOS.init();
   return (
-    <section className="skills-box">
+    <section className="skills-box" id="skills">
       <div className="container-box container text-center">
         <h1 className="default-header  text-center" data-aos="flip-up" data-aos-offset="300">
           My Skills:

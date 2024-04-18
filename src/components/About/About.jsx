@@ -8,7 +8,7 @@ import "./About.css";
 const About = () => {
   AOS.init();
   return (
-    <section className="MyStory">
+    <section className="MyStory" id="about">
       <Container className="container-box">
         <Row className="align-items-center row-responsive">
           <Col xs={12} md={6} xl={6}>

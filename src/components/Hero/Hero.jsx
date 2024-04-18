@@ -11,7 +11,7 @@ import "./Hero.css";
 const Hero = () => {
   AOS.init();
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="hero">
       <Container className="container-box">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
