@@ -6,18 +6,20 @@ import Projects from "./components/Projects/Projects";
 import "./index.css";
 import ScrollUp from "./components/ScrollUp/ScrollUp";
 import MouseCursor from "./components/MouseCursor/MouseCursor";
-
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
     <div>
+      <ScrollUp />
+      <MouseCursor />
       <Navbar />
       <Hero />
       <About />
       <Skills />
       <Projects />
-      <ScrollUp />
-      <MouseCursor />
+
+      <Contact />
     </div>
   );
 }
