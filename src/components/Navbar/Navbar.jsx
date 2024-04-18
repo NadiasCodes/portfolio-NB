@@ -14,10 +14,9 @@ const Navbar = () => {
       <ul className={mobileMenu ? "" : "hide-mobile-menu"}>
         <li>Home</li>
         <li>About</li>
+        <li>Skills</li>
         <li>Projects</li>
-        <li>
-          Contact
-        </li>
+        <li>Contact</li>
       </ul>
       <img src={menuIcon} alt="menu icon" className="menu-icon" onClick={toggleMenu} />
     </nav>

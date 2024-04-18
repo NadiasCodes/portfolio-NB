@@ -1,19 +1,77 @@
-.projects-box{
-margin-top: 0;
- padding: 80px 0 80px 0;
+.project-box {
+  margin-top: 0;
+  padding: 80px 0 80px 0;
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/499/original/Dark_Simple_Minimalist_Modern_Photo_Collage_Fashion_Facebook_Cover_%282%29.png?1713347407");
   background-position: top-center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.projects-box p{
-    font-size: 18px;
+.project-text {
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5;
-  width: 96%;
-  border-left: 2px solid black;
-   display: flex;
-  justify-content: center;
-  
+  width: 100%;
+
+   margin-bottom: 70px;
+  text-align: center;
+}
+
+.project-box .nav.nav-pills {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-image: url("../../assets/tab-color/tab-color-2.png");
+  overflow: hidden;
+}
+
+.project-box .nav.nav-pills .nav-item {
+  width: 33, 33333%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-box .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 20px 20px;
+  color: black;
+  width: 100%;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  text-align: center;
+  z-index: 0;
+  margin: 10px 5px;
+  margin-right: 10px;
+}
+
+.project-box .nav.nav-pills .nav-link::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s ease-in-out;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.project-box .nav.nav-pills .nav-link.active::before {
+  width: 101%;
+}
+
+.nav-link#projects-tabs-tab-first {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#projects-tabs-tab-second {
+  border-top: 3px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 3px solid rgba(255, 255, 255, 0.5);
 }

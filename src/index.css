@@ -126,7 +126,7 @@ body {
     max-width: 1280px;
   }
   .col-component {
-    padding: 0px;
+    padding: 60px 50px 80px 60px;
   }
 }
 
@@ -135,7 +135,7 @@ body {
     max-width: 1024px;
   }
   .col-component {
-    padding: 0px;
+    padding: 40px 12px 120px 0px;
   }
   .coder {
     height: auto;

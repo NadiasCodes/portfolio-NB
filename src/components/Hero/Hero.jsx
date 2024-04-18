@@ -48,7 +48,7 @@ const Hero = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={coder} alt="hero image" className="coder " />
+            <img src={coder} alt="hero image" className="coder " data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" />
           </Col>
         </Row>
       </Container>
