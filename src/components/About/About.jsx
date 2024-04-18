@@ -16,7 +16,7 @@ const About = () => {
           </Col>
 
           <Col xs={12} md={6} xl={6} className="col-component">
-            <h1 className="default-header " data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600" data-aos-easing="ease-in-sine">
+            <h1 className="default-header " data-aos="fade-up" data-aos-duration="3000">
               About Me:
             </h1>
             <p data-aos="fade-right" data-aos-duration="360" data-aos-easing="ease-in-sine">
