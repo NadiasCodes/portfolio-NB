@@ -10,16 +10,16 @@ const About = () => {
   return (
     <section className="MyStory">
       <Container className="container-box">
-        <Row className="align-items-center">
-          <Col xs={12} md={6} xl={5}>
+        <Row className="align-items-center row-responsive">
+          <Col xs={12} md={6} xl={6}>
             <CertificateSlider />
           </Col>
 
-          <Col xs={12} md={6} xl={6}>
+          <Col xs={12} md={6} xl={6} className="col-component">
             <h1 className="default-header " data-aos="flip-up">
               About Me:
             </h1>
-            <p data-aos="fade-right" >
+            <p data-aos="fade-right">
               After completing my front-end developer Bootcamp and earning my certification, I discovered a deep affinity for React. Since then, I have devoted myself to refining my skills and broadening my knowledge of React, while exploring complementary frameworks such as Tailwind CSS, Next.js, and Framer Motion to expand my skill set and build more versatile, high-performance applications.
               <br />
               <br />

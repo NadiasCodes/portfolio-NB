@@ -1,13 +1,16 @@
 .carousel{
-  width: 90%;
+ 
   padding-top: 50px;
   padding-bottom: 50px;
+  
 }
 
-.certificates-image {
+.img-responsive {
   display: block;
   width: 100%;
   aspect-ratio: auto;
-  height:auto;
+  object-fit: cover;
+
+ 
 }
 
