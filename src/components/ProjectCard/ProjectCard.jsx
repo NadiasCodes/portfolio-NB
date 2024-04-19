@@ -9,16 +9,16 @@ export const ProjectCard = ({ title, description, imgUrl, repo, preview }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgBox" data-aos="fade-right" data-aos-duration="2000">
-        <img src={imgUrl} className="img-fluid" />
+        <img src={imgUrl} className="img-fluid" alt="Portfolio Projects" />
         <div className="proj-txt">
           <h4>{title}</h4>
           <span>{description}</span>
           <div className="repository-links">
             <a href={repo} target="blank">
-              <img src={gitHub} alt="" className="image-responsive" />
+              <img src={gitHub} alt="GitHub Project Icon" className="image-responsive" />
             </a>
             <a href={preview} target="blank">
-              <img src={previewProject} alt="" className="image-responsive" />
+              <img src={previewProject} alt="Preview Project Icon" className="image-responsive" />
             </a>
           </div>
         </div>

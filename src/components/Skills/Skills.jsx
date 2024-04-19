@@ -24,48 +24,48 @@ const Skills = () => {
         <div className="skills-icons-box" data-aos="fade-right" data-aos-duration="2400" data-aos-easing="ease-in-sine">
           <div className="row mt-5">
             <div className="col-lg col-md-2 mb-5">
-              <img src={html} className="img-fluid icon-skill icon-hover" />
+              <img src={html} className="img-fluid icon-skill icon-hover" alt="HTML5" />
             </div>
 
             <div className="col-lg col-md-2 mb-5">
-              <img src={css} className="img-fluid icon-skill" />
+              <img src={css} className="img-fluid icon-skill" alt="CSS3" />
             </div>
             <div className="col-lg col-md-2 mb-4">
-              <img src={javascript} className="img-fluid icon-skill" />
-            </div>
-
-            <div className="col-lg col-md-2 mb-4">
-              <img src={bootstrap} className="img-fluid icon-skill" />
+              <img src={javascript} className="img-fluid icon-skill" alt="JavaScript" />
             </div>
 
             <div className="col-lg col-md-2 mb-4">
-              <img src={tailwind} className="img-fluid icon-skill" />
+              <img src={bootstrap} className="img-fluid icon-skill" alt="Bootstrap" />
             </div>
 
             <div className="col-lg col-md-2 mb-4">
-              <img src={responsive} className="img-fluid icon-skill" />
+              <img src={tailwind} className="img-fluid icon-skill" alt="TailwindCSS" />
+            </div>
+
+            <div className="col-lg col-md-2 mb-4">
+              <img src={responsive} className="img-fluid icon-skill" alt="Responsive Web Design" />
             </div>
           </div>
           <div className="row mt-5">
             <div className="col-lg  col-md-2 mb-4">
-              <img src={reactjs} className="img-fluid icon-skill" />
+              <img src={reactjs} className="img-fluid icon-skill" alt="React" />
             </div>
             <div className="col-lg col-md-2 mb-4">
-              <img src={git} className="img-fluid icon-skill" />
+              <img src={git} className="img-fluid icon-skill" alt="GitHub" />
             </div>
             <div className="col-lg col-md-2 mb-4">
-              <img src={api} className="img-fluid icon-skill" />
-            </div>
-
-            <div className="col-lg col-md-2 mb-4">
-              <img src={canva} className="img-fluid icon-skill" />
+              <img src={api} className="img-fluid icon-skill" alt="API" />
             </div>
 
             <div className="col-lg col-md-2 mb-4">
-              <img src={figma} className="img-fluid icon-skill" />
+              <img src={canva} className="img-fluid icon-skill" alt="Canva" />
+            </div>
+
+            <div className="col-lg col-md-2 mb-4">
+              <img src={figma} className="img-fluid icon-skill" alt="Figma" />
             </div>
             <div className="col-lg col-md-2 mb-4">
-              <img src={invision} className="img-fluid icon-skill" />
+              <img src={invision} className="img-fluid icon-skill" alt="inVision" />
             </div>
           </div>
         </div>

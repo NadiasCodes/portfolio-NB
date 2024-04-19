@@ -53,18 +53,18 @@ const Contact = () => {
 
             <div className="social-icons-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
               <a href="https://github.com/NadiasCodes" target="blank">
-                <img src={GitHubIcon} alt="" className="social-icon contact-icon" />
+                <img src={GitHubIcon} alt="GitHub" className="social-icon contact-icon"  />
               </a>
 
               <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
-                <img src={LinkedinIcon} alt="" className="social-icon contact-icon" />
+                <img src={LinkedinIcon} alt="Linkedin" className="social-icon contact-icon" />
               </a>
 
               <a href="https://dev.to/nadiafedev" target="blank">
-                <img src={DevIcon} alt="" className="social-icon contact-icon" />
+                <img src={DevIcon} alt="Dev" className="social-icon contact-icon" />
               </a>
               <a href="mailto:nb.dev@hotmail.com" target="blank">
-                <img src={EmailEnvelope} alt="" className="social-icon contact-icon" />
+                <img src={EmailEnvelope} alt="email" className="social-icon contact-icon" />
               </a>
             </div>
             <div>

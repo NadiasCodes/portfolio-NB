@@ -32,15 +32,15 @@ const Hero = () => {
 
             <div className="social-icons-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
               <a href="https://github.com/NadiasCodes" target="blank">
-                <img src={GitHubIcon} alt="" className="social-icon" />
+                <img src={GitHubIcon} alt="GitHub" className="social-icon" />
               </a>
 
               <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
-                <img src={LinkedinIcon} alt="" className="social-icon" />
+                <img src={LinkedinIcon} alt="Linkedin" className="social-icon" />
               </a>
 
               <a href="https://dev.to/nadiafedev" target="blank">
-                <img src={DevIcon} alt="" className="social-icon" />
+                <img src={DevIcon} alt="Dev" className="social-icon" />
               </a>
             </div>
             <button className="contact-btn " data-aos="zoom-in-up" data-aos-duration="900">
