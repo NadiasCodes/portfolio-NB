@@ -1,0 +1,18 @@
+.footer {
+  margin-top: 0;
+  padding: 80px 0 80px 0;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/499/original/Dark_Simple_Minimalist_Modern_Photo_Collage_Fashion_Facebook_Cover_%282%29.png?1713347407");
+  background-position: top-center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.footer-text {
+  margin: 10px;
+  position: relative;
+  top: 80px;
+  text-align: center;
+}
+
+

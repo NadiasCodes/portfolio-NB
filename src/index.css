@@ -134,13 +134,11 @@ body {
   border: 2px solid #757c97;
   font-weight: 500;
 }
-.submit-btn{
+.submit-btn {
   margin-top: 0;
   margin-left: 5px;
   border-radius: 15px;
   background-color: #7979977d;
- 
-  
 }
 a {
   color: black;
@@ -227,6 +225,13 @@ a {
   .col-component {
     padding: 60px 50px 80px 60px;
   }
+  .contact-box input {
+    width: 600px;
+    height: 78px;
+  }
+  .contact-box textarea {
+    width: 600px;
+  }
 }
 
 @media (max-width: 1404px) {
@@ -249,6 +254,16 @@ a {
   .MyStory p {
     text-align: center;
     font-size: 16px;
+  }
+  .contact-box input {
+    width: 500px;
+    height: 78px;
+  }
+  .contact-box textarea {
+    width: 500px;
+  }
+  .contact-h1 {
+    display: flex;
   }
 }
 
@@ -333,6 +348,26 @@ a {
     line-height: 1.5;
     width: 100%;
   }
+  .contact-box input {
+    width: 450px;
+  }
+  .contact-box textarea {
+    width: 450px;
+  }
+  .submit-btn {
+    padding-left: 0;
+  }
+  .contact-h1 {
+    font-size: 30px;
+    text-align: start;
+  }
+  .contact-text {
+    font-size: 16px;
+    text-align: center;
+    width: 96%;
+    letter-spacing: 0.8px;
+    line-height: 1.5;
+  }
 }
 
 @media (max-width: 768px) {
@@ -406,6 +441,14 @@ a {
   }
   .icon-skill {
     animation: none;
+  }
+
+  .mail-icon {
+    display: none;
+  }
+  .contact-box {
+    align-items: center;
+    gap: 15px;
   }
 }
 
