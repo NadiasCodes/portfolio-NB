@@ -43,8 +43,11 @@ const Hero = () => {
                 <img src={DevIcon} alt="" className="social-icon" />
               </a>
             </div>
-            <button className="btn-hero " data-aos="zoom-in-up" data-aos-duration="900">
-              Contact Me <BsArrowRightCircle size={25} className="arrow" />
+            <button className="contact-btn " data-aos="zoom-in-up" data-aos-duration="900">
+              Contact Me
+              <a href="#contact">
+                <BsArrowRightCircle size={25} className="arrow" />
+              </a>
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>

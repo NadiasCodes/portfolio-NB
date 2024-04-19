@@ -12,15 +12,43 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: start;
+  gap: 15px;
 }
 
-.input-contact{
-    padding: 18px 40px 20px;
-    margin: 10px;
-    border-radius: 20px;
-    outline:none;
-    background-color: transparent;
-    font-size: 18px;
+.contact-box label {
+  font-weight: 500;
+  font-size: 17px;
 }
 
+.contact-box input {
+  border: none;
+  width: 700px;
+  height: 78px;
+  padding-left: 20px;
+  border-radius: 14px;
+  background-color: #7979977d;
+  color: black;
+  font-size: 17px;
+}
+::placeholder{
+  color:#343444b5;
+}
+
+.contact-box textarea{
+  width:650px;
+  border:none;
+  padding:25px;
+  border-radius: 4px;
+  background: #7979977d;
+  border-radius: 14px;
+  color:black;
+  
+}
+
+.mail-icon{
+  aspect-ratio: auto;
+  width: 600px;
+  margin-top: 10px;
+  margin-right: 15px;
+}

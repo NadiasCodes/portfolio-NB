@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import DevIcon from "../../assets/icons/dev.png";
 import GitHubIcon from "../../assets/icons/github.png";
 import LinkedinIcon from "../../assets/icons/linkedin.png";
+import { BsArrowRightCircle } from "react-icons/bs";
+import EmailIcon from "../../assets/icons/mail.svg";
 import "./Contact.css";
 
 const Contact = () => {
@@ -10,7 +12,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <Container className="container-box">
-        <Row >
+        <Row>
           <Col xs={12} md={6} xl={7}>
             <h1 className="default-header">Let's work together</h1>
 
@@ -31,19 +33,24 @@ const Contact = () => {
                 <img src={DevIcon} alt="" className="social-icon" />
               </a>
             </div>
-           
+            <div>
+              <img src={EmailIcon} alt="email-icon" className="img-fluid mail-icon" />
+            </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <form>
               <div className="contact-box" id="contact">
-                <label>Your email</label>
+                <label>Your Email</label>
                 <input type="email" name="user-mail" placeholder="Enter your email" className="input-contact" required />
-                <label>Your name</label>
+                <label>Your Name</label>
                 <input type="text" name="user-name" placeholder="Enter your name" className="input-contact" required />
-                <label>Your message</label>
+                <label>Write your message here</label>
                 <textarea name="message" placeholder="Your Message" rows="8" />
-                <button type="submit" className="contact-button">
-                  Submit{" "}
+                <button type="submit" className="contact-btn submit-btn">
+                  Submit
+                  <a href="#contact">
+                    <BsArrowRightCircle size={25} className="arrow" />
+                  </a>
                 </button>
               </div>
             </form>

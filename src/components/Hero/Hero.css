@@ -56,26 +56,6 @@
   width: 96%;
 }
 
-.btn-hero {
-  margin-top: 18px;
-  letter-spacing: 0.8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 13px;
-  gap: 10px;
-  background: transparent;
-  border: none;
-  font-size: 20px;
-  border: 2px solid #757c97;
-font-weight: 500;
-}
 
-.arrow {
-  transition: 1s;
-}
-.arrow:hover {
-  transform: translateX(8px);
-}
 
 

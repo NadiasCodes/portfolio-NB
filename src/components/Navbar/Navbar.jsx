@@ -33,7 +33,11 @@ const Navbar = () => {
             Projects{" "}
           </Link>
         </li>
-        <li>Contact</li>
+        <li>
+          <Link to="contact" smooth={true} offset={0} duration={500}>
+            Contact
+          </Link>
+        </li>
       </ul>
       <img src={menuIcon} alt="menu icon" className="menu-icon" onClick={toggleMenu} />
     </nav>
