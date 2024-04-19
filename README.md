@@ -7,8 +7,9 @@ My Portfolio
 
 ## Description 📌
 This is a full re-work of my portfolio in React. 
-Previously I built it very simple with just HTML, CSS and JavaScript.
+Previously I built it very simple with just HTML, CSS, and JavaScript.
 This is the old version: https://nb-front-end-dev.vercel.app/
+Both versions are fully responsive for all type of screens and mobiles 
 
 ## Tech Stack 🔌
 - React
