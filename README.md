@@ -20,6 +20,7 @@ Both versions are fully responsive for all type of screens and mobiles
 - npm react-scroll
 - npm react-animated-cursor
 - npm react icons
+- AOS for smooth animations
 
 
 ## Email Provider 📧
