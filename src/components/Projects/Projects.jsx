@@ -7,15 +7,24 @@ import project3 from "../../assets/projects/project3.jpg";
 import project4 from "../../assets/projects/project4.jpg";
 import project5 from "../../assets/projects/project5.jpg";
 import project6 from "../../assets/projects/project6.jpg";
+import project7 from "../../assets/projects/project7.jpg";
 import tabColor from "../../assets/tab-color/tab-color1.png";
 import { ProjectCard } from "../ProjectCard/ProjectCard";
 import TrackVisibility from "react-on-screen";
 import "animate.css";
-import { Hourglass } from "react-loader-spinner";
-import Typewriter from "typewriter-effect";
 
 const Projects = () => {
   AOS.init();
+  const figmaProjects = [
+    {
+      title: "Photography Portfolio",
+      description: "Built in React",
+      imgUrl: project7,
+      repo: "https://github.com/NadiasCodes/Figma-Design-Into-Code-Photography-Portfolio",
+      preview: "https://photography-portfolio-psi-rose.vercel.app/",
+    },
+  ];
+
   const projects = [
     {
       title: "Weather React Application",
@@ -97,20 +106,11 @@ const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <Hourglass visible={true} height="100" width="100" ariaLabel="hourglass-loading" wrapperStyle={{}} wrapperClass="hourglass-icon" colors={["#0A0908", "#928862"]} />
-                        <h5 className="tab2-text">
-                          <Typewriter
-                            onInit={(typewriter) => {
-                              typewriter
-                                .typeString("Work In Progress...")
-                                .callFunction(() => {})
-                                .pauseFor(3000)
-                                .changeDelay(600)
-                                .callFunction(() => { })
-                                .start();
-                            }}
-                          />
-                        </h5>
+                        <Row>
+                          {figmaProjects.map((project, index) => {
+                            return <ProjectCard key={index} {...project} />;
+                          })}
+                        </Row>
                       </Tab.Pane>
                     </Tab.Content>
                   </Tab.Container>
