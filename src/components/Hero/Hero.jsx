@@ -15,7 +15,7 @@ const Hero = () => {
       <Container className="container-box">
         <Row className="align-items-center">
           <Col xs={12} md={6} xl={7}>
-            <span className="tagline" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <span className="tagline" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500">
               Welcome to my Portfolio
             </span>
             <h1 data-aos="fade-right" data-aos-duration="1500">
@@ -30,17 +30,17 @@ const Hero = () => {
               Junior front-end developer, proficient in React, with a keen interest in expanding skills in Tailwind CSS, Next.js, and Framer Motion. Dedicated to creating visually appealing, user-friendly web experiences through clean, organized code and a passion for continuous learning.
             </p>
 
-            <div className="social-icons-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div className="social-icons-container">
               <a href="https://github.com/NadiasCodes" target="blank">
-                <img src={GitHubIcon} alt="GitHub" className="social-icon" />
+                <img src={GitHubIcon} alt="GitHub" className="social-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" />
               </a>
 
               <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
-                <img src={LinkedinIcon} alt="Linkedin" className="social-icon" />
+                <img src={LinkedinIcon} alt="Linkedin" className="social-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" />
               </a>
 
               <a href="https://dev.to/nadiafedev" target="blank">
-                <img src={DevIcon} alt="Dev" className="social-icon" />
+                <img src={DevIcon} alt="Dev" className="social-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2800" />
               </a>
             </div>
             <button className="contact-btn " data-aos="zoom-in-up" data-aos-duration="900">
@@ -51,7 +51,7 @@ const Hero = () => {
             </button>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={coder} alt="hero image" className="coder " data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" />
+            <img src={coder} alt="hero image" className="coder " data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500" />
           </Col>
         </Row>
       </Container>

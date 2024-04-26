@@ -51,20 +51,20 @@ const Contact = () => {
               I am eager to connect with you for collaboration, feedback, or inquiries regarding my work. I look forward to hearing from you! Feel free to reach out via the contact form or directly through email, according to your preference.
             </p>
 
-            <div className="social-icons-container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div className="social-icons-container">
               <a href="https://github.com/NadiasCodes" target="blank">
-                <img src={GitHubIcon} alt="GitHub" className="social-icon contact-icon"  />
+                <img src={GitHubIcon} alt="GitHub" className="social-icon contact-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500" />
               </a>
 
               <a href="https://www.linkedin.com/in/nadia-bouli/" target="blank">
-                <img src={LinkedinIcon} alt="Linkedin" className="social-icon contact-icon" />
+                <img src={LinkedinIcon} alt="Linkedin" className="social-icon contact-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" />
               </a>
 
               <a href="https://dev.to/nadiafedev" target="blank">
-                <img src={DevIcon} alt="Dev" className="social-icon contact-icon" />
+                <img src={DevIcon} alt="Dev" className="social-icon contact-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="2500" />
               </a>
               <a href="mailto:nb.dev@hotmail.com" target="blank">
-                <img src={EmailEnvelope} alt="email" className="social-icon contact-icon" />
+                <img src={EmailEnvelope} alt="email" className="social-icon contact-icon" data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" />
               </a>
             </div>
             <div>
