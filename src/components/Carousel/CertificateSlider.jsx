@@ -4,7 +4,7 @@ import "./CertificateSlider.css";
 
 const CertificateSlider = () => {
   return (
-    <Carousel fade interval={null} className="carousel">
+    <Carousel fade interval={null} className="carousel" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
       <Carousel.Item>
         <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/123/491/original/front-end-developerpng.png?1713346400" className=" img-responsive" alt="web development certificate" />
       </Carousel.Item>
