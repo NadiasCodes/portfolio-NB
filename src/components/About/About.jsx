@@ -26,7 +26,7 @@ const About = () => {
               <br /> My primary goal is to contribute my skills in creating visually captivating and user-friendly web experiences. I consistently ensure that my code is clean and well-organized. Driven by a passion for continuous learning and self-improvement, I am committed to staying up-to-date with the latest industry trends and best practices.
               <br />
               <br />
-              During my free time, I mainly like to pursue personal coding projects. Aside that, I love going for walks, exercising, improving my German skills, watching TV series, reading books & playing video games & writing articles about coding. Lastly, I have a deep love for cats and plants.
+              During my free time, I mainly like to pursue personal coding projects. Aside that, I love going for walks, exercising, improving my German skills, watching TV series, reading books, playing video games & writing articles about coding. Lastly, I have a deep love for cats and plants.
               <br />
               <br />
               Currently I am looking for any opportunities which will help me grow personally and professionaly as a developer.

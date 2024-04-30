@@ -19,6 +19,7 @@
     "bootstrap-icons": "^1.11.3",
     "dotenv": "^16.4.5",
     "framer-motion": "^11.0.28",
+    "i18next": "^23.11.3",
     "maath": "^0.10.7",
     "react": "^18.2.0",
     "react-animated-cursor": "^2.11.2",
