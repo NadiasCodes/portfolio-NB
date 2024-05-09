@@ -20,17 +20,16 @@ const About = () => {
               About Me:
             </h1>
             <p data-aos="fade-left" data-aos-duration="360" data-aos-easing="ease-in-sine">
-              Originally from Greece, I have called Germany home for nearly five years. After completing my front-end developer Bootcamp, I discovered a deep affinity for React. Since then, I have devoted myself to refining my skills and broadening my knowledge, while exploring complementary frameworks such as Tailwind CSS, Next.js, and Framer Motion to expand my skill set and build more versatile, high-performance applications.
-              
-              <br />
-              <br /> My primary goal is to contribute my skills in creating visually captivating and user-friendly web experiences. I consistently ensure that my code is clean and well-organized. Driven by a passion for continuous learning and self-improvement, I am committed to staying up-to-date with the latest industry trends and best practices.
+              I'm Nadia, originally from Greece but having spent the last seven years abroad, immersing myself in diverse cultures and professional experiences. My journey started in Amsterdam, where I honed my leadership skills as a Store Manager for two years. However, it was my move to Germany in 2019 that marked a pivotal transformation in my career.
               <br />
               <br />
-              During my free time, I mainly like to pursue personal coding projects. Aside that, I love going for walks, exercising, improving my German skills, watching TV series, reading books, playing video games & writing articles about coding. Lastly, I have a deep love for cats and plants.
+              My relocation to Germany was very challenging. I started learning German immediately but my plans got changed due to pandemic and unforeseen natural disasters. Despite these obstacles, I was keep moving forward. While I initially pursued various mini-jobs to sustain myself, sadly I barely had any career opportunities, but I knew my potential was far greater. <br />
+              <br />I was always a creative person. I was spenting countless hours designing and creating stuff using Canva but I always felt that I can do more. In 2023, I decided to pursue coding, a field where I could leverage my creativity and energy to the fullest. Investing my time in a rigorous BootCamp, I delved into the world of programming, graduating in February as a Front-end developer.
               <br />
               <br />
-              Currently I am looking for any opportunities which will help me grow personally and professionaly as a developer.
-              I am flexible and willing to relocate.
+              Now, armed with a diversed of skills & experiences, fluent in English and advanced in German, I am trying to finally make a significant impact. I'm eager to explore diverse opportunities that align with my aspirations for personal and professional growth.
+              <br />
+              <br />I am determined to pursue my dreams and goals, and I am more than willing to relocate for the right opportunity. All I am seeking is a chance, where I can channel my skills, energy, and determination towards meaningful endeavors.
             </p>
           </Col>
         </Row>
