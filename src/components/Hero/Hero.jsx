@@ -22,12 +22,12 @@ const Hero = () => {
               Hi, I'm Nadia a
               <Typewriter
                 onInit={(typewriter) => {
-                  typewriter.typeString("Front-End developer").pauseFor(100).deleteAll().typeString("React developer").start();
+                  typewriter.typeString("Front-End developer").pauseFor(100).deleteAll().typeString("Multilingual Professional").start();
                 }}
               />
             </h1>
             <p data-aos="fade-right" data-aos-duration="1200" data-aos-offset="300" data-aos-easing="ease-in-sine">
-              Junior front-end developer, proficient in React, with a keen interest in expanding skills in Tailwind CSS, Next.js, and Framer Motion. Dedicated to creating visually appealing, user-friendly web experiences through clean, organized code and a passion for continuous learning.
+              Determined and adaptable professional with a background in leadership and a recent transition into tech. Seeking a dynamic role where I can leverage my technical skills and passions. I am fluent in English, advanced in German, and proficient in Greek. Eager to explore any new opportunities and willing to relocate for the right opportunity to channel my energy and skills into meaningful endeavors.
             </p>
 
             <div className="social-icons-container">
